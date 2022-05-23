@@ -1,0 +1,32 @@
+/* This is the style for the About page */
+body {
+  background-color: #f3f7f0 !important;
+}
+
+.bioImg {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.bio {
+  background-color: rgba(185, 184, 184, 0.167);
+}
+
+.Gretzky {
+  margin-right: 70px;
+}
+@media (max-width: 992px) {
+  .Gretzky {
+    display: none;
+  }
+}
+
+.footer {
+  background-color: #1e555c7a;
+}
