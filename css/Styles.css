@@ -1,0 +1,97 @@
+/* This is the style for the About page */
+body {
+  background-color: #f3f7f0 !important;
+}
+
+h1 {
+  text-align: center;
+}
+
+.bioImg {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.bio {
+  background-color: rgba(185, 184, 184, 0.167);
+}
+
+.Gretzky {
+  margin-right: 70px;
+}
+@media (max-width: 992px) {
+  .Gretzky {
+    display: none;
+  }
+}
+
+.footer {
+  background-color: #1e555c7a;
+}
+
+/************************** Project CSS *********************************/
+
+.project-icon:hover {
+  transform: scale(1.02);
+}
+
+/************************** Contact CSS *********************************/
+form {
+  width: 600px;
+  height: 500px;
+}
+textarea {
+  height: 200px;
+}
+
+/************************** Previous Work CSS *********************************/
+
+.resumeImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60%;
+  width: 60%;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .resumeImg {
+    display: none;
+  }
+}
+
+#cats {
+  background-color: rgba(185, 184, 184, 0.167);
+}
+
+.progressBar {
+  width: 80%;
+  height: 30px;
+  background-color: rgba(185, 184, 184, 0.32);
+}
+
+#htmlProgress,
+#cssProgress,
+#jsProgress,
+#cProgress,
+#cppProgress,
+#sqlProgress {
+  width: 1%;
+  height: 30px;
+  background-color: #00a375;
+  text-align: end;
+  padding-right: 10px;
+  line-height: 30px;
+  color: #f3f7f0;
+}
+
+/* #skillsList {
+  width: 80%;
+} */

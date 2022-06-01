@@ -6,56 +6,178 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Previous Work</title>
-    <link rel="stylesheet" href="..\css/aboutStyles.css" />
+    <link rel="stylesheet" href="..\css/Styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <script defer src="..\JavaScript/previousWork.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   </head>
   <body class="container">
-    <!-- NavBar -->
+    <!-- ************************* Navbar START******************************** -->
     <nav class="navbar navbar-expand-md p-2 mt-4">
-      <a class="nav-item pe-3" href="..\index.html">
-        <img src="..\images/VPLogo.png" width="40" height="40" alt="VP logo" />
-      </a>
-      <a class="navbar-brand fs-5" href="..\index.html"> Viktoriya Petrova </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item p-2">
-            <!-- sr-only means screen readers only -->
-            <a class="nav-link" href="..\index.html"
-              >About <span class="sr-only"></span
-            ></a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="#">Previous Work</a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="projects.html">Projects</a>
-          </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+      <div class="container-fluid">
+        <a class="nav-item pe-3" href="..\index.html">
+          <img
+            src="..\images/VPLogo.png"
+            width="40"
+            height="40"
+            alt="VP logo"
+          />
+        </a>
+        <a class="navbar-brand fs-5" href="..\index.html">
+          Viktoriya Petrova
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item p-2">
+              <!-- sr-only means screen readers only -->
+              <a class="nav-link" href="..\index.html"
+                >About <span class="sr-only"></span
+              ></a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="#">Previous Work</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    <!-- Navbar END -->
-    <h1>PREVIOUS WORK</h1>
+    <!-- ************************* Navbar END******************************** -->
+    <!-- ************************* CONTENT START******************************** -->
+
+    <div class="content">
+      <h1>RESUME</h1>
+      <div class="row mt-5">
+        <img
+          src="..\images/square copy.jpeg"
+          alt="Picture of Viktoriya Petrova"
+          width="250"
+          height="250"
+          class="col-md-3 resumeImg"
+        />
+        <div class="col-md-9">
+          <h2 class="row justify-content-center">Viktoriya Petrova</h2>
+          <p class="row justify-content-center">
+            Student at Portland State University
+          </p>
+          <p class="row justify-content-center ms-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
+            molestiae eveniet quae sed optio odit, repellendus possimus
+            cupiditate assumenda maiores, provident praesentium quisquam, veniam
+            autem blanditiis dolorem dolores amet similique?
+          </p>
+        </div>
+      </div>
+
+      <h2 class="row mt-4">Work Experience</h2>
+      <div class="card mt-4" id="cats">
+        <div class="card-body">
+          <h4 class="card-title">
+            Portland State University Computer Action Team (CAT)
+          </h4>
+          <h5 class="card-subtitle mt-2">Front desk</h5>
+          <p class="card-text mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+            corporis velit molestiae accusamus id, nisi, beatae porro assumenda
+            fugiat iste minima ipsa debitis ratione atque qui. Amet quibusdam
+            dolorum hic. Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Non maiores dolore quas libero quam sequi maxime modi fuga
+            minus rerum odio officia, voluptate dicta doloribus adipisci
+            voluptatem ex vitae cumque!
+          </p>
+        </div>
+      </div>
+
+      <h2 class="row mt-4">Languages</h2>
+      <div id="html">
+        <h5>HTML</h5>
+        <div class="progressBar">
+          <div class="myProgress" id="htmlProgress">1%</div>
+        </div>
+      </div>
+
+      <div id="css">
+        <h5>CSS</h5>
+        <div class="progressBar">
+          <div class="myProgress" id="cssProgress">1%</div>
+        </div>
+      </div>
+
+      <div id="js">
+        <h5>JavaScript</h5>
+        <div class="progressBar">
+          <div class="myProgress" id="jsProgress">1%</div>
+        </div>
+      </div>
+
+      <div id="c">
+        <h5>C</h5>
+        <div class="progressBar">
+          <div class="myProgress" id="cProgress">1%</div>
+        </div>
+      </div>
+
+      <div id="cpp">
+        <h5>C++</h5>
+        <div class="progressBar">
+          <div class="myProgress" id="cppProgress">1%</div>
+        </div>
+      </div>
+
+      <div id="sql">
+        <h5>SQL</h5>
+        <div class="progressBar">
+          <div class="myProgress" id="sqlProgress">1%</div>
+        </div>
+      </div>
+
+      <h2 class="mt-4">Technical Skills</h2>
+      <div class="row mt-4">
+        <ul class="col list-group list-group-flush" id="skillsList">
+          <li class="list-group-item">Linux, Mac, and Windows Systems</li>
+          <li class="list-group-item">Vi/Vim editors</li>
+          <li class="list-group-item">Visual Studio Code and JetBrains IDEs</li>
+          <li class="list-group-item">Excel, Power Point, and Word</li>
+          <li class="list-group-item">Google Suite</li>
+        </ul>
+        <ul class="col list-group list-group-flush">
+          <li class="list-group-item">Unit testing using GoogleTest</li>
+          <li class="list-group-item">
+            Git version control including GitHub and GitLab
+          </li>
+          <li class="list-group-item">Command line interface</li>
+          <li class="list-group-item">JQuery, Ajax, JSON, Node.js</li>
+          <li class="list-group-item">Bootstrap</li>
+        </ul>
+      </div>
+    </div>
   </body>
-  <!-- FOOTER -->
+  <!-- ************************* CONTENT END******************************** -->
+  <!-- ************************* FOOTER START******************************** -->
   <footer class="row mt-5 pb-3 footer">
     <div class="col-lg-3 Gretzky">
       <img
@@ -115,7 +237,7 @@
       </a>
     </div>
   </footer>
-  <!-- FOOTER END -->
+  <!-- ************************* FOOTER END******************************** -->
 
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
