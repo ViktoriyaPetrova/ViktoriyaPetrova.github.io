@@ -29,8 +29,9 @@ function findPercent(language) {
   return percent;
 }
 
-/////////////////////////////////////////////////////////
-/// This function was copied from  ??????? ////////////
+/////////////////////////////////////////////////////////////////
+/// This function was taken from Sitepoint (see ReadMe) /////////
+/////////////////////////////////////////////////////////////////
 function isScrolledIntoView(elem) {
   var docViewTop = $(window).scrollTop();
   var docViewBottom = docViewTop + $(window).height();
@@ -40,8 +41,8 @@ function isScrolledIntoView(elem) {
 
   return elemBottom <= docViewBottom && elemTop >= docViewTop;
 }
-/////////////////////////////////////////////////////////
 
+//Move the progress bars based on the percentages from the findPercentage() method
 function move(language) {
   var percent = findPercent(language);
   var elem = document.getElementById(language.concat("Progress"));

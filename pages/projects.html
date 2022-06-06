@@ -13,9 +13,13 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat"
+      rel="stylesheet"
+    />
   </head>
   <body class="container">
-    <!-- NavBar -->
+    <!-- ************************* NAVBAR START ***************************** -->
     <nav class="navbar navbar-expand-md p-2 mt-4">
       <a class="nav-item pe-3" href="..\index.html">
         <img src="..\images/VPLogo.png" width="40" height="40" alt="VP logo" />
@@ -35,7 +39,6 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item p-2">
-            <!-- sr-only means screen readers only -->
             <a class="nav-link" href="..\index.html"
               >About <span class="sr-only"></span
             ></a>
@@ -52,11 +55,11 @@
         </ul>
       </div>
     </nav>
-    <!-- Navbar END -->
+    <!-- ************************* NAVBAR END ****************************** -->
 
+    <!-- ************************* CONTENT START *************************** -->
     <h1 class="my-4">PROJECTS</h1>
-
-    <!-- ************************* ROW 1 Item 1******************************** -->
+    <!-- ************************* ROW 1 Item 1 **************************** -->
     <div class="row m-4">
       <div class="col-md-6 mt-5 project-item">
         <div class="project-icon">
@@ -91,15 +94,21 @@
         </div>
         <div class="silly-desc">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Consequatur sequi in obcaecati eius, quaerat soluta asperiores ipsam
-            magni, ratione, quas reprehenderit deserunt adipisci! Amet accusamus
-            perspiciatis magnam, perferendis quo dolores.
+            The SillyShell program was written for my Operating Systems class to
+            practice working with concurrent processes using fork(). The program
+            creates a Unix shell that is capable of executing commands in the
+            background and in the foreground. It's able to handle built-in bash
+            commands, such as "exit", as well as commands that are not built in,
+            such as "-ls". The program utilizes several system calls and signal
+            handlers to simulate the shell and ensure that all child processes
+            are finished executing prior to exiting. Future updates to this
+            project will include the ability to handle more built-in commands
+            such as "cd", "read", and "echo".
           </p>
         </div>
       </div>
-      <!-- ************************* ROW 1 Item 2 ******************************** -->
 
+      <!-- ************************* ROW 1 Item 2 ******************************** -->
       <div class="col-md-6 mt-5 project-item">
         <div class="project-icon">
           <a
@@ -133,14 +142,23 @@
         </div>
         <div class="resume-desc">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Consequatur sequi in obcaecati eius, quaerat soluta asperiores ipsam
-            magni, ratione, quas reprehenderit deserunt adipisci! Amet accusamus
-            perspiciatis magnam, perferendis quo dolores.
+            My personal website was created as a final project to my Intro to
+            Web Development class. It showcases everything that I learned
+            throughout the term - including HTML, CSS, JavaScript, Bootstrap,
+            and JQuery. My main focus with this project was to create something
+            that is a reflection of who I am as a person. Everything from the
+            color scheme to the icons and cliparts were carefully thought out
+            and created by me as a way to show my creative side. This website is
+            still a work in progress, the more I learn the more I will add to
+            it. The next planned update is refactoring the navbar and footer
+            implementation to make it cleaner and easier to maintain, as well as
+            learning PHP in order to improve functionality for the "Contact"
+            page.
           </p>
         </div>
       </div>
     </div>
+
     <!-- ************************* ROW 2 Item 1 ******************************** -->
     <div class="row m-4">
       <div class="col-md-6 mt-5 project-item">
@@ -176,19 +194,31 @@
         </div>
         <div class="calendar-desc">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Consequatur sequi in obcaecati eius, quaerat soluta asperiores ipsam
-            magni, ratione, quas reprehenderit deserunt adipisci! Amet accusamus
-            perspiciatis magnam, perferendis quo dolores.
+            This project was created for my Programming Systems class as a way
+            to practice OOP concepts. It's a simulation of a calendar that is
+            able to keep track of to-do lists, video conference information, and
+            reminders. The implementation revolves around the main principles of
+            OOP and it utilizes two different types of data structures. Single
+            inheritance is used as a way to reuse methods for classes with
+            similar functionality. Data hiding is used to promote encapsulation
+            with the use of private and protected data. Abstraction is achieved
+            through the use of classes and header files. Lastly, polymorphism
+            was implemented through the use of virtual classes, function
+            overloading, and RTTI. It also contains a main menu interface with 8
+            choices that help navigate the user through the different aspects of
+            the program.
           </p>
         </div>
       </div>
-      <!-- ************************* ROW 2 Item 2 ******************************** -->
-      <!-- ****************!!!!! NEED TO FIX LINK!!!!!! ************************** -->
 
+      <!-- ************************* ROW 2 Item 2 ******************************** -->
       <div class="col-md-6 mt-5 project-item">
         <div class="project-icon">
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/ViktoriyaPetrova/ScavengerHunt/tree/main"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src="..\images/ScavengerIcon.png"
               alt="Scavenger hunt project icon."
@@ -199,7 +229,11 @@
         </div>
         <div class="scavenger-title">
           <h3>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/ViktoriyaPetrova/ScavengerHunt/tree/main"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="..\images/GitHub-Mark-120px-plus.png"
                 alt="GitHub Logo"
@@ -211,17 +245,25 @@
         </div>
         <div class="scavenger-desc">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Consequatur sequi in obcaecati eius, quaerat soluta asperiores ipsam
-            magni, ratione, quas reprehenderit deserunt adipisci! Amet accusamus
-            perspiciatis magnam, perferendis quo dolores.
+            I had a lot of fun with this project. It's a simulation of a
+            Halloween themed scavenger hunt, where the user can create a list of
+            items available to scavenge around their neighborhood. The program
+            then displays the item name and a clue to the location. There is
+            also one hint available per item on user request, otherwise, the
+            hint remains hidden. Once the item is found, the program moves on to
+            the next item in the list. This program was created for my Data
+            Structure class and it includes a hash table implemented with an
+            array of linear linked lists and a queue implemented with a circular
+            linked list. The program has a main menu interface that allows the
+            user to test the game itself as well as test the full functionality
+            of the data structures.
           </p>
         </div>
       </div>
     </div>
   </body>
 
-  <!-- ***********************FOOTER ******************************-->
+  <!-- *********************** FOOTER START *********************************-->
   <footer class="row mt-5 pb-3 footer">
     <div class="col-lg-3 Gretzky">
       <img
@@ -232,7 +274,7 @@
       />
     </div>
     <div class="col-5 col-lg-4 mt-5 ms-3">
-      <p>
+      <p id="logomkr">
         All logos and clipart created with<a
           href="http://logomakr.com/app"
           target="_blank"
@@ -270,8 +312,8 @@
         />
       </a>
     </div>
-    <div class="col-2 col-lg-1 mt-5">
-      <a href="#">
+    <div class="col-2 col-lg-1 mt-5 me-1">
+      <a href="contact.html">
         <img
           src="..\images/email.png"
           alt="Gmail Logo"
@@ -281,11 +323,10 @@
       </a>
     </div>
   </footer>
-  <!-- FOOTER END -->
-
-  <script
+  <!-- ************************* FOOTER END ***************************** -->
+  <!-- <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"
-  ></script>
+  ></script> -->
 </html>

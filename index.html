@@ -13,9 +13,13 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat"
+      rel="stylesheet"
+    />
   </head>
   <body class="container">
-    <!-- NavBar -->
+    <!-- ************************* NAVBAR START ******************************** -->
     <nav class="navbar navbar-expand-md p-2 mt-4">
       <a class="nav-item pe-3" href="#">
         <img src="images/VPLogo.png" width="40" height="40" alt="VP logo" />
@@ -35,7 +39,6 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item p-2">
-            <!-- sr-only means screen readers only -->
             <a class="nav-link" href="#">About <span class="sr-only"></span></a>
           </li>
           <li class="nav-item p-2">
@@ -50,7 +53,9 @@
         </ul>
       </div>
     </nav>
-    <!-- Navbar END -->
+    <!-- ************************* NAVBAR END ******************************** -->
+
+    <!-- ************************* CONTENT START ***************************** -->
     <h1 class="my-4">ABOUT ME</h1>
     <div class="aboutMe">
       <img
@@ -61,43 +66,47 @@
         width="3024"
       />
       <div class="row p-3 bio">
-        <p class="col-md-6">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum esse
-          inventore voluptate voluptates fugiat unde commodi accusantium ipsam
-          doloremque dolore ea modi iure sed quas laborum alias porro, facere
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit libero
-          laborum facilis, rerum quibusdam sunt maxime nisi tempore eveniet
-          ipsum nihil, odio cupiditate error facere incidunt. Nam ad ea
-          amet?perspiciatis dicta veniam placeat. Quae. Lorem ipsum dolor sit
-          amet consectetur, adipisicing elit. Rerum maxime iste minus officiis
-          earum aspernatur veritatis modi, fugit expedita error quidem,
-          doloremque nemo a deleniti explicabo provident pariatur, magni
-          ratione. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Cupiditate possimus exercitationem iste sed? Tempora reprehenderit
-          blanditiis consequatur provident facere voluptatem repellat, quasi
-          molestias? Ipsam quo aut aperiam id labore eius?
+        <p class="col-md-6" id="bio">
+          Hi, my name is Viktoriya Petrova and I'm a Computer Science major at
+          Portland State University. For the past five years, I've had the
+          pleasure of working in public health where I applied my skills and
+          knowledge to helping people. At the beginning of the pandemic, I
+          decided to make a career change and get a bachelor's degree for
+          something that has always been a passion of mine. I've always been
+          drawn to computers and technology so going through the Computer
+          Science program at PSU has been a very pleasant experience. While
+          going through school I've had the opportunity to work for the Computer
+          Action Team at the Maseeh College of Engineering. There, I've gained
+          experience in working with the college's ticketing system, providing
+          maintenance and support to users, reading and writing documentation,
+          writing scripts, working with remote/on-site Linux and Windows
+          machines, and much much more. I'm very greatful for everything that
+          they have taught me and I look forward to working with them for
+          another year until I graduate.
         </p>
-        <p class="col-md-6">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum esse
-          inventore voluptate voluptates fugiat unde commodi accusantium ipsam
-          doloremque dolore ea modi iure sed quas laborum alias porro, facere
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit libero
-          laborum facilis, rerum quibusdam sunt maxime nisi tempore eveniet
-          ipsum nihil, odio cupiditate error facere incidunt. Nam ad ea
-          amet?perspiciatis dicta veniam placeat. Quae. Lorem ipsum dolor sit
-          amet consectetur, adipisicing elit. Rerum maxime iste minus officiis
-          earum aspernatur veritatis modi, fugit expedita error quidem,
-          doloremque nemo a deleniti explicabo provident pariatur, magni
-          ratione. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Cupiditate possimus exercitationem iste sed? Tempora reprehenderit
-          blanditiis consequatur provident facere voluptatem repellat, quasi
-          molestias? Ipsam quo aut aperiam id labore eius?
+        <p class="col-md-6" id="bio2">
+          After going through the core classes in my Junior, I fell in love with
+          Databases and Web Development. For that reason, I'm planning on
+          steering my education towards Full Stack Development. That way I can
+          apply my knowledge of databases to the back end and my knowledge of
+          Web Dev to the front end. Now that I know what area of Computer
+          Science I want to focus on, I've mapped out a couple of projects that
+          I would like to complete this summer. The biggest one being a dental
+          data center with a fully functional database and a web based user
+          terminal system. This project is similar to something my group did in
+          my Software Engineering class but with my own spin on it to incoporate
+          all of the skills I would like to practice. Additionally, I would like
+          to spend some time this summer getting familiar with commonly used
+          softwares/languages such as Angular, Tableau, Azure, PHP, and React.
+          I'm very excited to see where this journey takes me and how much I can
+          grow as a programmer.
         </p>
       </div>
     </div>
   </body>
+  <!-- ************************* CONTENT END ***************************** -->
 
-  <!-- FOOTER -->
+  <!-- ************************* FOOTER START ******************************** -->
   <footer class="row mt-5 pb-3 footer">
     <div class="col-lg-3 Gretzky">
       <img
@@ -108,7 +117,7 @@
       />
     </div>
     <div class="col-5 col-lg-4 mt-5 ms-3">
-      <p>
+      <p id="logomkr">
         All logos and clipart created with<a
           href="http://logomakr.com/app"
           target="_blank"
@@ -127,8 +136,8 @@
         <img
           src="images/GitHub-Mark-120px-plus.png"
           alt="GitHub Logo"
-          height="60"
-          width="60"
+          height="50"
+          width="50"
         />
       </a>
     </div>
@@ -141,23 +150,23 @@
         <img
           src="images/LI-In-Bug.png"
           alt="LinkedIn Logo"
-          height="60"
-          width="70"
+          height="50"
+          width="60"
         />
       </a>
     </div>
-    <div class="col-2 col-lg-1 mt-5">
-      <a href="#">
-        <img src="images/email.png" alt="Gmail Logo" height="60" width="80" />
+    <div class="col-2 col-lg-1 mt-5 me-1">
+      <a href="pages/contact.html">
+        <img src="images/email.png" alt="Gmail Logo" height="50" width="70" />
       </a>
     </div>
   </footer>
-  <!-- FOOTER END -->
+  <!-- ************************* FOOTER END ******************************** -->
 
   <!-- Adding the javascript bootstrap bundle. Needs to be before the closing body -->
-  <script
+  <!-- <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"
-  ></script>
+  ></script> -->
 </html>

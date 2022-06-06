@@ -1,4 +1,4 @@
-/* This is the style for the About page */
+/************************** Index CSS *********************************/
 body {
   background-color: #f3f7f0 !important;
 }
@@ -21,6 +21,14 @@ h1 {
 .bio {
   background-color: rgba(185, 184, 184, 0.167);
 }
+#bio:first-line {
+  font-weight: bold;
+}
+
+#bio,
+#bio2 {
+  text-indent: 70px;
+}
 
 .Gretzky {
   margin-right: 70px;
@@ -29,6 +37,12 @@ h1 {
   .Gretzky {
     display: none;
   }
+}
+
+#logomkr {
+  font-family: "Caveat";
+  font-weight: bold;
+  font-size: 23px;
 }
 
 .footer {
@@ -43,8 +57,8 @@ h1 {
 
 /************************** Contact CSS *********************************/
 form {
-  width: 600px;
-  height: 500px;
+  width: 400px;
+  height: 600px;
 }
 textarea {
   height: 200px;
@@ -91,7 +105,3 @@ textarea {
   line-height: 30px;
   color: #f3f7f0;
 }
-
-/* #skillsList {
-  width: 80%;
-} */
